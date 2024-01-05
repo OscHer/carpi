@@ -8,6 +8,13 @@ in a somehow-old-but-new coding process.
 * Arduino Uno
 * Raspberry Pi 4
 
+
+## Install
+
+### Dependencies
+* [arduino-cli](https://arduino.github.io/arduino-cli/0.35/)
+
+
 ## Appendix
 ### Standards
 * **//TODO** as a comment in code in order to quickly generate a processable backlog file
