@@ -17,4 +17,7 @@ in a somehow-old-but-new coding process.
 
 ## Appendix
 ### Standards
-* **//TODO** as a comment in code in order to quickly generate a processable backlog file
+* **TODO** as a comment in code in order to quickly generate a processable backlog file
+
+### Bibliography
+* [Systek.com](https://siytek.com/arduino-cli-raspberry-pi/)
