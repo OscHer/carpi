@@ -10,4 +10,4 @@ in a somehow-old-but-new coding process.
 
 ## Appendix
 ### Standards
-* //TODO tag will be a comment in code in order to quickly generate a processable backlog file
+* **//TODO** as a comment in code in order to quickly generate a processable backlog file
