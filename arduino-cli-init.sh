@@ -5,7 +5,17 @@
 # TODO: create dependencies section in main README.md
 # More info: https://siytek.com/arduino-cli-raspberry-pi/
 
+# Update repositories and install recommended software
+function update_and_install() {
+    	echo
+	echo "Updating repositories and installing recommended software"
+	(apt update && apt install -y build-essential make) 2> /dev/null 2> /dev/null || echo "You need root privileges. Try with sudo or su - root."
+}
 
+
+update_and_install
+
+# Look for arduino-cli binary
 [[ -x $(which arduino-cli) ]] && ARCLI_BIN=$(which arduino-cli) && echo "arduino-cli found at $ARCLI_BIN"
 
 # Updating board and libraries
